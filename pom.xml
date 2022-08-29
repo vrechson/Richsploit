@@ -71,7 +71,12 @@
 			<artifactId>weld-servlet</artifactId>
 			<version>1.1.4.Final</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.llamasbytes.playground</groupId>
+            <artifactId>CVE-2018-12533</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
